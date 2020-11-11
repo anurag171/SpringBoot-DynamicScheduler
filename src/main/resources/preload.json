@@ -1,0 +1,25 @@
+[{
+    "key":"IP-MX",
+	"country": "MX",
+    "product": "IP",
+    "startTime": "11:30",
+    "endTime": "00:30",
+    "destinationMq": "MXSourceQ",
+    "schedulerExpression": "0 06 07 ? * MON,TUE,WED,THU,FRI",
+    "frequency": "10",
+    "timeZone": "America/Mexico_City",
+    "topic":"IP-MX_topic",
+    "_class": "com.anurag.spring.dynamic.schedule.db.CountryProductCutOff"
+},{
+	"key":"IP-GB",
+    "country": "GB",
+    "product": "IP",
+    "startTime": "16:30",
+    "endTime": "00:30",
+    "destinationMq": "GBSourceQ",
+    "schedulerExpression": "0 35 18 ? * MON,TUE,WED,THU,FRI",
+    "frequency": "10",
+    "timeZone": "Asia/Calcutta",
+    "topic":"IP-GB_topic",
+    "_class": "com.anurag.spring.dynamic.schedule.db.CountryProductCutOff"
+}]
